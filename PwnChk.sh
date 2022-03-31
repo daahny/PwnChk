@@ -2,7 +2,6 @@
 
 ##### PwnChk #####
 ###   Summary  ###
-# PwnChk is a script for the paranoid.
 # This script is used to check the breach status for an email account.
 # This is especially useful if you have multiple burner emails.
 # Instead of checking the breach status of 200 different burner emails one at a time,
