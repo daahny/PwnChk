@@ -29,6 +29,5 @@ for i in range(len(emails)):
 print ("Writing to accounts.csv ...")
 with open ("accounts.csv", 'w') as cf:
     csvwriter = csv.writer(cf)
-    csvwriter.writerow(["Account", "Email"])
     for account, email in accounts.items():
         csvwriter.writerow([account, email])
