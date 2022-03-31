@@ -83,7 +83,7 @@ function check_pwnage() {
 # Report breach statistics/results.
 function report_results() {
 	echo "### Breach results ###"
-	[[ "$breach_count" -eq 0 ]] && printf "${GREEN}No breaches found.${NOCOL}" && return
+	[[ "$breach_count" -eq 0 ]] && printf "${GREEN}No breaches found.${NOCOL}\n" && return
 	[[ "$breach_count" -eq 1 ]] && printf "${RED}1 email has been breached.${NOCOL}\n" && return
 	printf "${RED}${breach_count} emails have been breached.${NOCOL}\n"
 }
